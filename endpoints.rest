@@ -1,6 +1,8 @@
 
 ### Variables
 @port = 3000
+@id = 66182a2ca7a315fd991a4790
+
 
 
 ### Get todos
@@ -18,6 +20,6 @@ Content-Type: application/json
 
 ### Toggle completed status of a todo
 
-PUT http://localhost:{{port}}/api/todos/1
+PUT http://localhost:{{port}}/api/todos/{{id}}
 
 
